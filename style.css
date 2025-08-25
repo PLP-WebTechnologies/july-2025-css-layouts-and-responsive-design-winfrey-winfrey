@@ -1,0 +1,35 @@
+body {
+  background-color: grey;
+  text-align: left;
+}
+.grid-container {
+  display: grid;
+}
+.fixed-nav {
+  position: fixed;
+  margin-left: 25%;
+}
+.two {
+  position: sticky;
+  display: block;
+}
+.container {
+  display: flex;
+}
+.side-bar {
+  flex: 0 0 200px;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.maincontent {
+  flex: 1;
+  padding: 20px;
+  margin-left: 25%;
+}
